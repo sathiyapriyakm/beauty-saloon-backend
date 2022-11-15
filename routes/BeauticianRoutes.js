@@ -8,7 +8,7 @@ import {
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  res.send("doctor route working");
+  res.send("beautician route working");
 });
 
 router.post("/add", registerBeautician);
